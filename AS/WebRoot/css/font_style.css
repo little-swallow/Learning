@@ -1,0 +1,262 @@
+.biaoti{
+    text-align:center;
+    font-family:隶书;
+    font-size:100px;  
+    color:darkcyan;
+}
+
+.zhengwen{
+    
+    font-family:隶书;
+    font-size:30px;
+}
+table.youbianda{
+   border-style:solid;
+    border-color:darkred;
+     border-width: 2px;
+      padding-left:50px;
+       width:503px;
+      
+ }
+
+.table_td table td{
+    border:1px;
+
+}
+h1{
+    font-family: Algerian; font-size:60px; 
+    color:#0a410b;
+}
+
+h2{
+    font-family:隶书; font-size:50px; 
+    color:black;
+    background-color:chocolate;
+    text-align:center
+}
+
+body
+{
+    background:top center;
+    background-image:url("../img/blackboard3.jpg");
+    background-size:100% 100% ;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+a:link {
+    color:chocolate;
+}
+a:visited{
+    color:#e9c598;
+}
+a:hover{
+    color:#8e1414;
+}
+
+.textbox{
+    width:34px;
+    height:22px;
+}
+
+.divzuo
+{
+    font-size:14px;
+    width: 350px;
+    height:460px;
+    line-height: 26px; 
+    border-right-style:solid;
+    border-right-color:black;
+    border-right-width:5px;
+    height:650px;
+            background-color:yellow;
+            margin:20px;
+            margin-left:50px;
+            float:left ; 
+}
+
+.divdabiaoti{
+    text-align:center;
+    padding-top:30px;
+     position: relative
+}
+
+.divyou{
+    width: 600px;
+    height: 328px;
+    position: absolute;
+    right: 200px;
+    top: 100px;
+    color: black;
+}
+
+
+.divdayou{
+    width: 600px;
+    height: 800px;
+    color: black;
+    display:block;
+
+            background-color:darkblue;
+            margin-left:20px;
+            margin-bottom:10px;
+            float:left ;
+
+}
+
+.divdayou0{
+    width: 600px;
+    height: 900px;
+    position:absolute;
+    right: 10px;
+    top: 20px;
+    color: black;
+    display:none;
+
+}
+
+
+.divyouabuttondiv
+{
+    width: 600px;
+    height: 328px;
+    color: black;
+   top:400px;
+   position:relative;
+}
+
+
+
+.youtablebutton{
+    border-style:none; 
+    border-color: inherit;
+     border-width: 2px;
+      
+      width:600px;
+      font-size:20px;
+      font-family:隶书;
+    
+}
+.tabletitou{
+    border-style:solid;
+    border-color:darkred;
+     border-width: 1px;
+       width:700px;
+        
+}
+
+.tablethresd{
+    align-items:center;
+    background-color:burlywood;
+    vertical-align:central;
+    height:27px;
+    
+
+}
+
+body {
+    font-family:Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	
+}
+br {
+	font-size: 0;
+	line-height: 10px;
+	height: 10px;
+}
+.container {
+    width: 1024px;
+    margin: 0px auto; /*主面板DIV居中*/
+}
+.top {
+	width: 980px;
+	height: 90px;
+	margin: 0 auto;
+
+   
+   
+            background-color:red;
+            margin:auto;
+            margin-bottom:10px;
+
+}
+.main {
+    width:980px;
+    height:520px;
+    display:block;
+    margin:auto;
+    margin-bottom:10px;
+
+}
+.footer {
+    width :100%;
+    height:70px;
+}
+
+.middle
+{
+    height: 142px;
+width: 48%;
+text-align:center;
+line-height:100px;
+
+}
+.adddiv{
+    width: 600px;
+    height: 328px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+   
+
+}
+
+
+
+
+ .header00{
+            width:1100px;
+            height:100px;
+          
+            margin:auto;
+            margin-bottom:50px;
+
+        }
+        .content00{
+             width:1100px;
+            height:800px;
+           
+            margin:auto;
+            margin-bottom:10px;
+        }
+        .footer00{
+            width:1100px;
+            height:100px;
+            background-color:saddlebrown;
+            margin:auto;
+        }
+        .aside00{
+             padding-bottom:30px;
+             width:300px;
+            height:600px;
+           background-color:#4e280f;
+            margin:20px;
+            float:left ;
+            line-height: 26px; 
+    border-right-style:solid;
+    border-right-color:black;
+    border-right-width:5px;
+        }
+
+        .article00{
+            width:700px;
+            height:750px;
+        
+            margin:10px;
+            float:right ;
+            color:black;
+            font-size:14px;
+        }
+        

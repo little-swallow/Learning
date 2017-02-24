@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>AS</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+    <servlet>
+        <servlet-name>AddServlet</servlet-name>
+        <servlet-class>servlet.AddServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BackdoorServlet</servlet-name>
+        <servlet-class>servlet.BackdoorServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ChangeClassServlet</servlet-name>
+        <servlet-class>servlet.ChangeClassServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DistributionServlet</servlet-name>
+        <servlet-class>servlet.DistributionServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EnrolledUpdateServlet</servlet-name>
+        <servlet-class>servlet.EnrolledUpdateServlet</servlet-class>
+    </servlet> 
+    <servlet>
+        <servlet-name>EntertestgradeServlet</servlet-name>
+        <servlet-class>servlet.EntertestgradeServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ExcludeServlet</servlet-name>
+        <servlet-class>servlet.ExcludeServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FinaladmissionServlet</servlet-name>
+        <servlet-class>servlet.FinaladmissionServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PlanServlet</servlet-name>
+        <servlet-class>servlet.PlanServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>QueryServlet</servlet-name>
+        <servlet-class>servlet.QueryServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>servlet.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SortingServlet</servlet-name>
+        <servlet-class>servlet.SortingServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TobedeterminedServlet</servlet-name>
+        <servlet-class>servlet.TobedeterminedServlet</servlet-class>
+    </servlet>   
+    <servlet>
+        <servlet-name>UpdateServlet</servlet-name>
+        <servlet-class>servlet.UpdateServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>StateServlet</servlet-name>
+        <servlet-class>servlet.StateServlet</servlet-class>
+    </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SingalinformationqueryServlet</servlet-name>
+    <servlet-class>servlet.SingalinformationqueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CompletedemandServlet</servlet-name>
+    <servlet-class>servlet.CompletedemandServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EnsureServlet</servlet-name>
+    <servlet-class>servlet.EnsureServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BusServlet</servlet-name>
+    <servlet-class>servlet.BusServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RoomServlet</servlet-name>
+    <servlet-class>servlet.RoomServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EnrollstudentServlet</servlet-name>
+    <servlet-class>servlet.EnrollstudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GradeServlet</servlet-name>
+    <servlet-class>servlet.GradeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PageperstuServlet</servlet-name>
+    <servlet-class>servlet.PageperstuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PagedeterstuServlet</servlet-name>
+    <servlet-class>servlet.PagedeterstuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FinallstuServlet</servlet-name>
+    <servlet-class>servlet.FinallstuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PageclassServlet</servlet-name>
+    <servlet-class>servlet.PageclassServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+  
+   <servlet-mapping>
+        <servlet-name>AddServlet</servlet-name>
+        <url-pattern>/servlet/AddServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BackdoorServlet</servlet-name>
+        <url-pattern>/servlet/BackdoorServlet</url-pattern>
+    </servlet-mapping>
+     <servlet-mapping>
+        <servlet-name>ChangeClassServlet</servlet-name>
+        <url-pattern>/servlet/ChangeClassServlet</url-pattern>
+    </servlet-mapping>
+     <servlet-mapping>
+        <servlet-name>DistributionServlet</servlet-name>
+        <url-pattern>/servlet/DistributionServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EnrolledUpdateServlet</servlet-name>
+        <url-pattern>/servlet/EnrolledUpdateServlet</url-pattern>
+    </servlet-mapping>
+     <servlet-mapping>
+        <servlet-name>EntertestgradeServlet</servlet-name>
+        <url-pattern>/servlet/EntertestgradeServlet</url-pattern>
+    </servlet-mapping>
+     <servlet-mapping>
+        <servlet-name>ExcludeServlet</servlet-name>
+        <url-pattern>/servlet/ExcludeServlet</url-pattern>
+    </servlet-mapping>
+      <servlet-mapping>
+        <servlet-name>FinaladmissionServlet</servlet-name>
+        <url-pattern>/servlet/FinaladmissionServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/servlet/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PlanServlet</servlet-name>
+        <url-pattern>/servlet/PlanServlet</url-pattern>
+     </servlet-mapping>
+     <servlet-mapping>
+        <servlet-name>QueryServlet</servlet-name>
+        <url-pattern>/servlet/QueryServlet</url-pattern>
+    </servlet-mapping>
+     <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/servlet/RegisterServlet</url-pattern>
+    </servlet-mapping>
+   
+     <servlet-mapping>
+        <servlet-name>SortingServlet</servlet-name>
+        <url-pattern>/servlet/SortingServlet</url-pattern>
+    </servlet-mapping>
+     <servlet-mapping>
+        <servlet-name>TobedeterminedServlet</servlet-name>
+        <url-pattern>/servlet/TobedeterminedServlet</url-pattern>
+    </servlet-mapping>  
+  <servlet-mapping>
+    <servlet-name>UpdateServlet</servlet-name>
+    <url-pattern>/servlet/UpdateServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>StateServlet</servlet-name>
+    <url-pattern>/servlet/StateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SingalinformationqueryServlet</servlet-name>
+    <url-pattern>/servlet/SingalinformationqueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CompletedemandServlet</servlet-name>
+    <url-pattern>/servlet/CompletedemandServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EnsureServlet</servlet-name>
+    <url-pattern>/servlet/EnsureServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BusServlet</servlet-name>
+    <url-pattern>/servlet/BusServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RoomServlet</servlet-name>
+    <url-pattern>/servlet/RoomServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EnrollstudentServlet</servlet-name>
+    <url-pattern>/servlet/EnrollstudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GradeServlet</servlet-name>
+    <url-pattern>/servlet/GradeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PageperstuServlet</servlet-name>
+    <url-pattern>/servlet/PageperstuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PagedeterstuServlet</servlet-name>
+    <url-pattern>/servlet/PagedeterstuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FinallstuServlet</servlet-name>
+    <url-pattern>/servlet/FinallstuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PageclassServlet</servlet-name>
+    <url-pattern>/servlet/PageclassServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+    <filter>
+        <filter-name>EncodingFilter</filter-name>
+        <filter-class>filter.EncodingFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>EncodingFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+  
+</web-app>
